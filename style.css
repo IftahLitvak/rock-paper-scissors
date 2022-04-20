@@ -1,0 +1,69 @@
+body {
+    background-color: cadetblue;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:blueviolet;
+    border-radius: 15px;
+    
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffc600;
+    margin: 8px;
+}
+
+h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffc600;
+    margin: 8px;
+}
+
+.first-block {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: cadetblue;
+    gap: 100px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.move {
+    padding: 0px;
+    transition: all .17s ease;
+    margin: 0px;
+    width: 204px;
+    height: 204px;
+    border-radius: 15px;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+  }
+
+.second-block {
+    padding-top: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: cadetblue;
+}
+
+.result,
+.score {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    font-weight: bold;
+}
